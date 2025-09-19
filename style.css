@@ -130,3 +130,20 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+#sobre {
+  max-width: 900px;       /* limita largura no desktop */
+  margin: 0 auto;         /* centraliza */
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Ajustes para celular */
+@media (max-width: 768px) {
+  #sobre {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;     /* no mobile, alinhado à esquerda para facilitar leitura */
+  }
+}
